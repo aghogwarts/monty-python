@@ -328,7 +328,7 @@ dev = ["PyTest", "PyTest (<5)", "PyTest-Cov", "PyTest-Cov (<2.6)", "bump2version
 
 [[package]]
 name = "disnake"
-version = "2.6.0a4396+gd192412b"
+version = "2.6.0a4404+g08249717"
 description = "A Python wrapper for the Discord API"
 category = "main"
 optional = false
@@ -341,14 +341,14 @@ aiohttp = ">=3.7.0,<3.9.0"
 [package.extras]
 discord = ["discord-disnake"]
 docs = ["docutils (>=0.17)", "sphinx (>=5.1.1,<5.2.0)", "sphinx-autobuild (>=2021.3,<2022.0)", "sphinx-hoverxref (==1.1.3)", "sphinxcontrib-towncrier (==0.2.1a0)", "sphinxcontrib-trio (>=1.1.2,<1.2.0)", "towncrier (==21.9.0)"]
-speed = ["aiodns (>=1.1)", "brotli", "cchardet", "orjson (>=3.6,<4.0)"]
+speed = ["Brotli", "aiodns (>=1.1)", "cchardet", "orjson (>=3.6,<4.0)"]
 voice = ["PyNaCl (>=1.3.0,<1.5)"]
 
 [package.source]
 type = "git"
 url = "https://github.com/onerandomusername/disnake.git"
-reference = 'enums'
-resolved_reference = "d192412b3b2542142c5bba063f6a03b5d6bd3421"
+reference = "enums"
+resolved_reference = "082497174810c8d309aa01edf283367bde3e02da"
 
 [[package]]
 name = "distlib"
@@ -963,7 +963,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyright"
-version = "1.1.264"
+version = "1.1.270"
 description = "Command line wrapper for pyright"
 category = "dev"
 optional = false
@@ -1307,7 +1307,7 @@ fakeredis = ["fakeredis"]
 [metadata]
 lock-version = "1.1"
 python-versions = "~=3.9"
-content-hash = "b129660ce7a1e6255be16346ef08fd9c6d405bcc445fe19f6b738d8da587cd31"
+content-hash = "0d4294a6384e387eb74233f15d337a7bf1e901266a53afd8e92c0f4ab103ec59"
 
 [metadata.files]
 aiodns = [
@@ -2543,8 +2543,8 @@ pyreadline3 = [
     {file = "pyreadline3-3.4.1.tar.gz", hash = "sha256:6f3d1f7b8a31ba32b73917cefc1f28cc660562f39aea8646d30bd6eff21f7bae"},
 ]
 pyright = [
-    {file = "pyright-1.1.264-py3-none-any.whl", hash = "sha256:845c0bfa77695e81b19980fe4777a771016cbc6a18b821aa492a516a2df2fae1"},
-    {file = "pyright-1.1.264.tar.gz", hash = "sha256:93ffceb70c0f817d89122bf133583a41842c466d941aa4e92a4bb6a06bd3cd9a"},
+    {file = "pyright-1.1.270-py3-none-any.whl", hash = "sha256:f2936dd26a732177f0ed8038bb52e423760816d6ee2d86cc6c01b8e9c01c63bd"},
+    {file = "pyright-1.1.270.tar.gz", hash = "sha256:83ed7ebc04a4b63a43bc42be158733b3e38612eef0774412113b500cd805765d"},
 ]
 pytest = [
     {file = "pytest-7.1.2-py3-none-any.whl", hash = "sha256:13d0e3ccfc2b6e26be000cb6568c832ba67ba32e719443bfe725814d3c42433c"},
