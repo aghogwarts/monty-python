@@ -320,7 +320,7 @@ dev = ["PyTest", "PyTest (<5)", "PyTest-Cov", "PyTest-Cov (<2.6)", "bump2version
 
 [[package]]
 name = "disnake"
-version = "2.6.0a4404+g08249717"
+version = "2.7.0a4454+g8ab78ef8"
 description = "A Python wrapper for the Discord API"
 category = "main"
 optional = false
@@ -340,7 +340,7 @@ voice = ["PyNaCl (>=1.3.0,<1.5)"]
 type = "git"
 url = "https://github.com/onerandomusername/disnake.git"
 reference = "enums"
-resolved_reference = "082497174810c8d309aa01edf283367bde3e02da"
+resolved_reference = "8ab78ef896dd986948f6be19a428780fd7cf83b3"
 
 [[package]]
 name = "distlib"
@@ -753,7 +753,7 @@ sqlite = ["aiosqlite (>=0.17.0,<0.18.0)"]
 
 [[package]]
 name = "ormar-postgres-extensions"
-version = "2.1.0"
+version = "2.3.0"
 description = "PostgreSQL specific extensions to the Ormar ORM"
 category = "main"
 optional = false
@@ -1295,7 +1295,7 @@ fakeredis = ["fakeredis"]
 [metadata]
 lock-version = "1.1"
 python-versions = "~=3.9"
-content-hash = "ff4a61f06330b294157700bde65e383547b346d72229a6ede34d5721111b0dae"
+content-hash = "bd30ff1b4603d8434d5e2783f5656a2886a7b0b4fa8591528947abafcddc8e03"
 
 [metadata.files]
 aiodns = [
@@ -2295,8 +2295,8 @@ ormar = [
     {file = "ormar-0.11.3.tar.gz", hash = "sha256:b82994d8db000685a9bbc4ed53bbbef33811f9fcfd3ae1a0318dff6b1a634f86"},
 ]
 ormar-postgres-extensions = [
-    {file = "ormar-postgres-extensions-2.1.0.tar.gz", hash = "sha256:fe7f6fc120066ca5ccd6108e67b17aa74d0b6c70456316b8d28ba4119acd3a8e"},
-    {file = "ormar_postgres_extensions-2.1.0-py3-none-any.whl", hash = "sha256:86aeaa7e65c5e462dbb9fa793c684c34bb5dc52cc8771e36f2b4d2f14cfba2e6"},
+    {file = "ormar-postgres-extensions-2.3.0.tar.gz", hash = "sha256:b43169732563936b6753e65586269696ce5e06b218d40bf6524afefd09940870"},
+    {file = "ormar_postgres_extensions-2.3.0-py3-none-any.whl", hash = "sha256:ac8783c929242b28853a504fd6bcc3699d8a5010597a5820ad0f4878cf8a1165"},
 ]
 packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
