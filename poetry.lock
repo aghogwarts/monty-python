@@ -562,7 +562,7 @@ testing = ["pytest"]
 
 [[package]]
 name = "markdownify"
-version = "0.11.2"
+version = "0.11.6"
 description = "Convert HTML to markdown."
 category = "main"
 optional = false
@@ -1158,7 +1158,7 @@ fakeredis = ["fakeredis"]
 [metadata]
 lock-version = "1.1"
 python-versions = "~=3.9"
-content-hash = "5a7a6adaba77db8fa385617ee7de32502405580e25d60673fbc07128bdd0992c"
+content-hash = "1d853d2f4e6167c67743b1cc6bc9af338f6dc97b34fa54db9d845a0b6688c95f"
 
 [metadata.files]
 aiodns = [
@@ -1957,8 +1957,8 @@ mako = [
     {file = "Mako-1.2.3.tar.gz", hash = "sha256:7fde96466fcfeedb0eed94f187f20b23d85e4cb41444be0e542e2c8c65c396cd"},
 ]
 markdownify = [
-    {file = "markdownify-0.11.2-py3-none-any.whl", hash = "sha256:ef396bb8d0ffb3efacc08b86ab4aa6d36b234e782aea9f6b7f980798eaa64e33"},
-    {file = "markdownify-0.11.2.tar.gz", hash = "sha256:d613f95b2649d8b83c4c4cb2e6c24cea8c7df4e07d418f92fa25ad0ddbb045e0"},
+    {file = "markdownify-0.11.6-py3-none-any.whl", hash = "sha256:ba35fe289d5e9073bcd7d2cad629278fe25f1a93741fcdc0bfb4f009076d8324"},
+    {file = "markdownify-0.11.6.tar.gz", hash = "sha256:009b240e0c9f4c8eaf1d085625dcd4011e12f0f8cec55dedf9ea6f7655e49bfe"},
 ]
 markupsafe = [
     {file = "MarkupSafe-2.1.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:86b1f75c4e7c2ac2ccdaec2b9022845dbb81880ca318bb7a0a01fbf7813e3812"},
